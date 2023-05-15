@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material"
 import { useRouter } from "next/router"
 import MainContainer from "../../containers/MainContainer/MainContainer"
-import styles from './user.module.scss'
 
 const User = ({ user }) => {
     console.log('iuse', user)
